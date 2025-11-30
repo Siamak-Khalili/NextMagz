@@ -1,129 +1,155 @@
-# Contribution Guide
+# Contributing to NextMagz
 
-## 🤝 مرحبا با مشارکت‌کنندگان!
+## 🤝 Welcome, Contributors!
 
-ما از مشارکت‌های شما در بهبود NextMagz استقبال می‌کنیم.
-
----
-
-## 📋 قوانین
-
-1. **Branch نام‌گذاری:** `feature/feature-name` یا `bugfix/bug-name`
-2. **Commit messages:** واضح و توصیفی باشند
-3. **Pull Requests:** بیش از 10 فایل تغییر در یک PR تا حد ممکن اجتناب شود
-4. **Code Style:** کد خود را با `prettier` و `eslint` فرمت کنید
+We appreciate your interest in contributing to NextMagz and helping us improve this blogging platform.
 
 ---
 
-## 🚀 مراحل شروع
+## 📋 Guidelines
 
-### 1. Fork کردن
+1. **Branch Naming:** Use `feature/feature-name` or `bugfix/bug-name`
+2. **Commit Messages:** Keep them clear and descriptive
+3. **Pull Requests:** Try to keep changes under 10 files per PR
+4. **Code Style:** Format your code with `prettier` and `eslint`
+
+---
+
+## 🚀 Getting Started
+
+### 1. Fork the Repository
 
 ```bash
-# GitHub صفحه پروژه را fork کنید
+# Click the Fork button on GitHub
 ```
 
-### 2. Clone کردن
+### 2. Clone Your Fork
 
 ```bash
 git clone https://github.com/yourusername/NextMagz.git
 cd NextMagz
 ```
 
-### 3. اضافه کردن Upstream
+### 3. Add Upstream Remote
 
 ```bash
-git remote add upstream https://github.com/originalauthor/NextMagz.git
+git remote add upstream https://github.com/Siamak-Khalili/NextMagz.git
 ```
 
-### 4. ایجاد Branch
+### 4. Create a Branch
 
 ```bash
 git checkout -b feature/amazing-feature
 ```
 
-### 5. انجام تغییرات
+### 5. Make Your Changes
 
 ```bash
-# تغییرات خود را اضافه کنید
-# تست کنید
-# Commit کنید
+# Add your changes
+# Test thoroughly
+# Commit with clear messages
 ```
 
-### 6. Push کردن
+### 6. Push to Your Fork
 
 ```bash
 git push origin feature/amazing-feature
 ```
 
-### 7. Pull Request
+### 7. Create a Pull Request
 
-1. به GitHub بروید
-2. Pull Request جدید ایجاد کنید
-3. توضیح دقیق بدهید
+1. Go to GitHub
+2. Create a new Pull Request
+3. Provide a clear description of your changes
 
 ---
 
 ## 📝 Commit Message Format
 
 ```
-[type]: Short description
+[type]: Short description (50 chars max)
 
-Longer description if needed
+Longer description if needed (72 chars per line)
 
-Fix #123  # شماره issue
+Fix #123  # Issue number
 ```
 
-### Types
+### Commit Types
 
-- `feat:` ویژگی جدید
-- `fix:` رفع باگ
-- `docs:` تغییر مستندات
-- `style:` تغییر استایل
-- `refactor:` بازسازی کد
-- `test:` تغییر تست‌ها
-- `chore:` کارهای دیگر
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation changes
+- `style:` Code style changes (no logic changes)
+- `refactor:` Code refactoring
+- `test:` Test changes
+- `chore:` Other changes (dependencies, config, etc.)
 
 ---
 
-## 🧪 قبل از فرستادن
+## 🧪 Before Submitting
 
 ```bash
-# نصب dependencies
+# Install all dependencies
 npm run install-all
 
-# اجرای تست‌ها
+# Run tests
 npm run test
 
-# لینتر را اجرا کنید
+# Run linter
 npm run lint
 
-# Build کنید
+# Build the project
 npm run build
+
+# Start development servers
+npm run dev
 ```
 
 ---
 
-## 📋 Checklist
+## ✅ Pre-Submission Checklist
 
-- [ ] کد من فرمت شده است
-- [ ] تست‌های جدید اضافه کردم
-- [ ] مستندات به‌روزرسانی کردم
-- [ ] Commit message واضح است
-- [ ] Branch از `main` آپدیت شده است
-
----
-
-## 🐛 گزارش مشکلات
-
-[Issues](https://github.com/yourusername/NextMagz/issues) را بررسی کنید و مشکل جدید ایجاد کنید.
+- [ ] Code is formatted with prettier
+- [ ] All tests pass
+- [ ] Documentation is updated
+- [ ] Commit messages are clear
+- [ ] Branch is up-to-date with `main`
+- [ ] No console errors or warnings
 
 ---
 
-## ❓ سؤالات؟
+## 🐛 Reporting Issues
 
-[Discussions](https://github.com/yourusername/NextMagz/discussions) را چک کنید.
+Before creating a new issue, please:
+1. Check [existing issues](https://github.com/Siamak-Khalili/NextMagz/issues)
+2. Provide a clear title and description
+3. Include steps to reproduce (if applicable)
+4. Mention your environment (OS, Node version, etc.)
 
 ---
 
-**متشکریم از مشارکت شما! 🙏**
+## 📚 Project Structure
+
+- **Frontend:** `frontend/` - Next.js 16 & React 19
+- **Backend:** `backend/` - Express.js API
+- **Root:** Monorepo configuration with shared scripts
+
+For more details, see [README.md](README.md)
+
+---
+
+## ❓ Questions?
+
+- Check the [Discussions](https://github.com/Siamak-Khalili/NextMagz/discussions)
+- Open an [Issue](https://github.com/Siamak-Khalili/NextMagz/issues)
+- Contact: siamak.khalili77@gmail.com
+
+---
+
+## 🎯 Code of Conduct
+
+Be respectful to all contributors. We aim to maintain a welcoming and inclusive community.
+
+---
+
+**Thank you for contributing to NextMagz! 🙏**
