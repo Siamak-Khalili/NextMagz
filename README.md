@@ -21,7 +21,7 @@ A comprehensive blogging platform built with React, Next.js, and Express.js that
 
 | Homepage                                      | Blog Post                                       |
 | --------------------------------------------- | ----------------------------------------------- |
-| ![Homepage](/public/screenshots/homepage.png) | ![Blog Post](/public/screenshots/blog-post.png) |
+| ![Homepage](/frontend/public/screenshots/homepage.png) | ![Blog Post](/frontend/public/screenshots/blog-post.png) |
 
 ## Installation
 
