@@ -121,6 +121,7 @@ npm run dev
 ## 🐛 Reporting Issues
 
 Before creating a new issue, please:
+
 1. Check [existing issues](https://github.com/Siamak-Khalili/NextMagz/issues)
 2. Provide a clear title and description
 3. Include steps to reproduce (if applicable)
