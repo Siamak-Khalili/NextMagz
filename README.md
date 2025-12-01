@@ -2,6 +2,27 @@
 
 A comprehensive blogging platform built with React, Next.js, and Express.js that allows users to read, publish, and engage with blog content.
 
+---
+
+![Next.js 16](https://img.shields.io/badge/Next.js-16-000000?style=flat&logo=next.js)
+![React 19](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
+![Express](https://img.shields.io/badge/Express-4.19-000000?style=flat&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-4.7-green?style=flat&logo=mongodb)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-06b6d4?style=flat&logo=tailwind-css)
+
+A **full-stack** modern blogging platform built with **Next.js 16 (App Router)**, **React 19**, **Express.js**, and **MongoDB**.  
+Features nested comments, likes, bookmarks, image uploads, JWT authentication, user dashboard, and fully responsive design.
+
+## Live Demo
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nextmagz.ir)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=flat&logo=vercel)](https://nextmagz.ir)
+
+**https://nextmagz.ir**  
+(Instant deployment • Automatic SSL • Custom domain)
+
+---
+
 ## Features
 
 - 📝 Create, edit, and delete blog posts
