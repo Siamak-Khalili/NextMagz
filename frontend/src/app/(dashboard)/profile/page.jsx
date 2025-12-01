@@ -3,7 +3,7 @@ import Fallback from "@/ui/Fallback";
 import LatestPosts from "../../../components/dashboard/LatestPosts";
 import CardWrapper from "../../../components/dashboard/CardWrapper";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 async function Profile() {
   return (
